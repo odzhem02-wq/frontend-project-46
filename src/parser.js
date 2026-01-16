@@ -1,8 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const getAbsolutePath = (filepath) =>
-  path.resolve(process.cwd(), filepath);
+const getAbsolutePath = (filepath) => path.resolve(process.cwd(), filepath);
 
 const parse = (data, format) => {
   if (format === '.json') {
