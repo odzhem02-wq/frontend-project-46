@@ -3,3 +3,6 @@
 
 ## Demo
 [![asciinema demo](https://asciinema.org/a/ymqV9xA9i2p5d0xw.svg)](https://asciinema.org/a/ymqV9xA9i2p5d0xw)
+
+## Demo (YAML)
+[![asciinema demo yaml](https://asciinema.org/a/f4vSwb2sXl56uguo.svg)](https://asciinema.org/a/f4vSwb2sXl56uguo)
