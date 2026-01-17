@@ -6,3 +6,6 @@
 
 ## Demo (YAML)
 [![asciinema demo yaml](https://asciinema.org/a/f4vSwb2sXl56uguo.svg)](https://asciinema.org/a/f4vSwb2sXl56uguo)
+
+## Demo (Nested stylish)
+[![asciinema demo nested](https://asciinema.org/a/2GI3WfNDcYl9MUGR.svg)](https://asciinema.org/a/2GI3WfNDcYl9MUGR)
