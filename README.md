@@ -9,3 +9,6 @@
 
 ## Demo (Nested stylish)
 [![asciinema demo nested](https://asciinema.org/a/2GI3WfNDcYl9MUGR.svg)](https://asciinema.org/a/2GI3WfNDcYl9MUGR)
+
+## Demo (Plain)
+[![asciinema demo plain](https://asciinema.org/a/Eq8WsUS7orDfsKUN.svg)](https://asciinema.org/a/Eq8WsUS7orDfsKUN)
