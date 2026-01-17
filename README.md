@@ -12,3 +12,6 @@
 
 ## Demo (Plain)
 [![asciinema demo plain](https://asciinema.org/a/Eq8WsUS7orDfsKUN.svg)](https://asciinema.org/a/Eq8WsUS7orDfsKUN)
+
+## Demo (JSON)
+[![asciinema demo json](https://asciinema.org/a/6ZRDgY3hBurbrLQb.svg)](https://asciinema.org/a/6ZRDgY3hBurbrLQb)
