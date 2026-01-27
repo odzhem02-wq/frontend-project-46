@@ -1,14 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+import parse from './parsers';
 
 const getAbsolutePath = (filepath) => path.resolve(process.cwd(), filepath);
-
-const parse = (data, format) => {
-  if (format === '.json') {
-    return JSON.parse(data);
-  }
-  throw new Error(`Unknown format: ${format}`);
-};
 
 export default (filepath) => {
   const absolutePath = getAbsolutePath(filepath);
