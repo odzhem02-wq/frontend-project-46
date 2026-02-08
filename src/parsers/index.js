@@ -1,13 +1,14 @@
-import yaml from 'js-yaml';
+import parseJson from './json.js';
+import parseYaml from './yaml.js';
 
-export default (data, format) => {
-  switch (format) {
+export default (data, extname) => {
+  switch (extname) {
     case '.json':
-      return JSON.parse(data);
+      return parseJson(data);
     case '.yml':
     case '.yaml':
-      return yaml.load(data);
+      return parseYaml(data);
     default:
-      throw new Error(`Unknown format: ${format}`);
+      throw new Error(`Unknown format: ${extname}`);
   }
 };
