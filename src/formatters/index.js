@@ -1,14 +1,14 @@
-import stylish from './stylish.js';
-import plain from './plain.js';
-import json from './json.js';
+import stylish from "./stylish.js";
+import plain from "./plain.js";
+import json from "./json.js";
 
 export default (formatName) => {
   switch (formatName) {
-    case 'stylish':
+    case "stylish":
       return stylish;
-    case 'plain':
+    case "plain":
       return plain;
-    case 'json':
+    case "json":
       return json;
     default:
       throw new Error(`Unknown format: ${formatName}`);
