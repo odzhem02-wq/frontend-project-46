@@ -64,7 +64,7 @@ const expectedPlain = [
   'Property \'group1.nest\' was updated. From [complex value] to \'str\'',
   'Property \'group2\' was removed',
   'Property \'group3\' was added with value: [complex value]',
-].join('\n');
+].join('\n')
 
 test('gendiff stylish for nested json', () => {
   const filepath1 = path.join(__dirname, '..', '__fixtures__', 'nested1.json');
