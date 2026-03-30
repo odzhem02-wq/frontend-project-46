@@ -1,6 +1,6 @@
 import _ from 'lodash'
 
-const formatValue = value => {
+const formatValue = (value) => {
   if (_.isPlainObject(value)) {
     return '[complex value]'
   }
@@ -14,7 +14,7 @@ const formatValue = value => {
 }
 
 const buildLines = (nodes, parentPath) =>
-  nodes.flatMap(node => {
+  nodes.flatMap((node) => {
     const property = parentPath ? `${parentPath}.${node.key}` : node.key
 
     switch (node.type) {
