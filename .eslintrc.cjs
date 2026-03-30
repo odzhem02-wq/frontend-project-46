@@ -16,7 +16,7 @@ module.exports = {
         js: 'always',
       },
     ],
-    quotes: 'off',
+    'quotes': 'off',
   },
   overrides: [
     {
