@@ -1,31 +1,15 @@
 module.exports = {
   env: {
+    es2021: true,
     node: true,
-    es2022: true,
+    jest: true,
   },
-  extends: ["airbnb-base"],
+  extends: ['airbnb-base'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "always",
-      },
-    ],
+    'no-console': 'off',
   },
-  overrides: [
-    {
-      files: ["**/__tests__/**/*.js"],
-      env: {
-        jest: true,
-      },
-      rules: {
-        "no-underscore-dangle": "off",
-      },
-    },
-  ],
-};
+}
