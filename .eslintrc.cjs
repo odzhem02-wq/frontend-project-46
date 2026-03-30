@@ -1,8 +1,7 @@
 module.exports = {
   env: {
-    es2021: true,
     node: true,
-    jest: true,
+    es2022: true,
   },
   extends: ['airbnb-base'],
   parserOptions: {
@@ -10,6 +9,24 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'no-console': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'always',
+      },
+    ],
   },
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.js'],
+      env: {
+        jest: true,
+      },
+      rules: {
+        'no-underscore-dangle': 'off',
+        'import/extensions': 'off',
+      },
+    },
+  ],
 }
